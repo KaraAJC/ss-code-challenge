@@ -1,0 +1,14 @@
+{
+  "name": "twitter-compose-server",
+  "version": "0.1.0",
+  "description": "Twitter Screenname Autocomplete Server",
+  "scripts": {
+	"start": "node server.js"
+  },
+  "author": "Sprout Social",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "4.14.0",
+    "twitter": "1.3.0"
+  }
+}
