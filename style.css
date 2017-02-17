@@ -1,0 +1,39 @@
+.tweet-modal {
+  width: 80%;
+  margin: 0 auto;
+  border: 3px grey solid;
+  border-radius: 10px;
+  background: grey;
+}
+
+.tweet {
+  padding: 20px;
+}
+
+.user-header {
+  border-bottom: 1px solid black;
+  background: white;
+}
+
+span {
+
+}
+
+textarea {
+  resize: none;
+  font-size: 20px;
+}
+
+.tweet-form {
+
+}
+
+.tweet-content {
+  width: 100%;
+  height: 10em;
+  text-align: top;
+}
+
+.matches {
+
+}

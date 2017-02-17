@@ -1,14 +1,22 @@
-<div class="tweet-modal">
-  <div class="tweet">
-    <div class="user-header">
-      <p><img src="#" alt="profile photo of the user">
-      <span>Peter Soung</span> @soung3</p>
-      <a href="#"></a>
+<html>
+<head>
+  <title>Sprout Tweets!</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="tweet-modal">
+    <div class="tweet">
+      <div class="user-header">
+        <p><img src="#" alt="profile photo of the user">
+        <span class="user-screenname">Peter Soung</span>@soung3</p>
+        <a href="#" class="tweet-menu"></a>
+      </div>
+      <form class="tweet-form">
+        <textarea class="tweet-content" name="tweet-content" placeholder="Tweet Here" maxlength="140"></textarea>
+        <input type="submit" name="tweet" value="tweet" >
+        <ul class="matches"></ul>
+      </form>
     </div>
-    <form class="tweet-form">
-      <input type="text" class="tweet-content" name="tweet-content" placeholder="Tweet Here">
-      <input type="submit" name="tweet" >
-      <ul class="matches"></ul>
-    </form>
   </div>
-</div>
+</body>
+</html>
