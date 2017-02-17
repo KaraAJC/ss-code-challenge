@@ -15,8 +15,8 @@
   background: white;
 }
 
-span {
-
+.user-screenname {
+  font-weight: bolder;
 }
 
 textarea {
@@ -33,6 +33,14 @@ textarea {
   height: 10em;
   text-align: top;
 }
+
+.chars-left {
+  position: absolute;
+  margin-top: -3em;
+  margin-left: 70%;
+  color: lightgrey;
+}
+
 
 .matches {
 

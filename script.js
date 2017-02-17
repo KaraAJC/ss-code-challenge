@@ -2,6 +2,9 @@
 const endpoint = '';
 const screenNames = [];
 
+function charsLeft(chars) {
+  tweetChars.innerText = 140 - chars;
+};
 
 // STEP ONE - Create a function to watch for a username to start searching for (@aa)
 
@@ -13,12 +16,17 @@ const screenNames = [];
 
 function displayMatches() {
   console.log(this.value);
-}
+  charsLeft(this.value.length);
+
+};
+
 
 
 // SELECTORS
 const searchInput = document.querySelector('.tweet-content');
 const matches = document.querySelector('.matches');
+const tweetChars = document.querySelector('.chars-left')
 
 // EVENT LISTENERS
 searchInput.addEventListener('change', displayMatches);
+searchInput.addEventListener('keyup', displayMatches);
